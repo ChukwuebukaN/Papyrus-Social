@@ -1,3 +1,20 @@
+Introduction to Papyrus Social SQL / Prisma Relational Database Management System (RDBMS):
+
+PROBLEM STATEMENT: Design a database schema for a basic social media software emphasizing the following relationships and rules
+
+1. A user can have two accounts with the same login credentials.
+2. A user can like a post twice [like superlike].
+3. A user can create a text post.
+4. A post can only be seen for 2hours.
+5. Only a verified user can comment on a post.
+
+- One user can have 2 Accounts ✅
+- One user can like a post 2 times ✅
+- A user can create a text post ✅
+- The post can only be seen for 2 hours ⌛️✅
+- A user can be verified ✅
+- A user can comment if their profile is verified ✅
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
